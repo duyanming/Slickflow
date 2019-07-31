@@ -13,9 +13,9 @@ namespace Slickflow.Engine.Business.Entity
         public String ProcessGUID { get; set; }
         public String ProcessName { get; set; }
         public String Version { get; set; }
-        public Byte StartType { get; set; }
+        public short StartType { get; set; }
         public String StartExpression { get; set; }
-        public Byte EndType { get; set; }
+        public short EndType { get; set; }
         public String EndExpression { get; set; }
         public String Description { get; set; }
         public String XmlContent { get; set; }

@@ -35,7 +35,7 @@ namespace Slickflow.Engine.Business.Entity
 
         [Required]
         [Column(Order = 4)]
-        public byte IsUsing { get; set; }
+        public short IsUsing { get; set; }
 
         [Column(TypeName = "varchar(20)", Order = 5)]
         [MaxLength(20)]
@@ -58,7 +58,7 @@ namespace Slickflow.Engine.Business.Entity
 
         [Required]
         [Column(Order = 10)]
-        public byte StartType { get; set; }
+        public short StartType { get; set; }
 
         [Column(TypeName = "varchar(100)", Order = 11)]
         [MaxLength(100)]
@@ -66,7 +66,7 @@ namespace Slickflow.Engine.Business.Entity
 
         [Required]
         [Column(Order = 12)]
-        public byte EndType { get; set; }
+        public short EndType { get; set; }
 
         [Column(TypeName = "varchar(100)", Order = 13)]
         [MaxLength(100)]

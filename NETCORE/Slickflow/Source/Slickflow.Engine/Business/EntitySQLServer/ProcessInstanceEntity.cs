@@ -107,10 +107,10 @@ namespace Slickflow.Engine.Business.Entity
 
         [Required]
         [Column(Order = 23)]
-        public byte RecordStatusInvalid { get; set; }
+        public short RecordStatusInvalid { get; set; }
 
         [Timestamp]
         [Column(TypeName = "timestamp", Order = 24)]
-        public byte[] RowVersionID { get; set; }
+        public DateTime RowVersionID { get; set; }
     }
 }

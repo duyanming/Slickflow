@@ -44,11 +44,11 @@ namespace Slickflow.Engine.Business.Entity
 
         [Required]
         [Column(Order = 6)]
-        public byte TransitionType { get; set; }
+        public short TransitionType { get; set; }
 
         [Required]
         [Column(Order = 7)]
-        public byte FlyingType { get; set; }
+        public short FlyingType { get; set; }
 
         [Required]
         [Column(Order = 8)]
@@ -88,7 +88,7 @@ namespace Slickflow.Engine.Business.Entity
 
         [Required]
         [Column(Order = 16)]
-        public byte ConditionParseResult { get; set; }
+        public short ConditionParseResult { get; set; }
 
         [Required]
         [Column(TypeName = "varchar(50)", Order = 17)]
@@ -106,10 +106,10 @@ namespace Slickflow.Engine.Business.Entity
 
         [Required]
         [Column(Order = 20)]
-        public byte RecordStatusInvalid { get; set; }
+        public short RecordStatusInvalid { get; set; }
 
         [Timestamp]
         [Column(TypeName = "timestamp", Order = 21)]
-        public byte[] RowVersionID { get; set; }
+        public DateTime RowVersionID { get; set; }
     }
 }

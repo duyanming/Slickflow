@@ -69,7 +69,7 @@ namespace Slickflow.Engine.Business.Entity
 
         public short ActivityState { get; set; }
 
-        public byte RecordStatusInvalid { get; set; }
+        public short RecordStatusInvalid { get; set; }
 
         public short ProcessState { get; set; }
 

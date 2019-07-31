@@ -78,7 +78,7 @@ namespace Slickflow.Engine.Business.Entity
 
         [Required]
         [Column(Order = 15)]
-        public byte CanRenewInstance { get; set; }
+        public short CanRenewInstance { get; set; }
 
         [Required]
         [Column(Order = 16)]
@@ -145,10 +145,10 @@ namespace Slickflow.Engine.Business.Entity
 
         [Required]
         [Column(Order = 33)]
-        public byte RecordStatusInvalid { get; set; }
+        public short RecordStatusInvalid { get; set; }
 
         [Timestamp]
         [Column(TypeName = "timestamp", Order = 34)]
-        public byte[] RowVersionID { get; set; }
+        public DateTime RowVersionID { get; set; }
     }
 }

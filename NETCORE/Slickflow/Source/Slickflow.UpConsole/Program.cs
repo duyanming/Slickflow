@@ -16,9 +16,9 @@ namespace Slickflow.UpConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //var message = StartProcessTest();
+            var message = StartProcessTest();
             //Console.WriteLine(message);
-            DataTest();
+            //DataTest();
 
             Console.ReadLine();
         }
